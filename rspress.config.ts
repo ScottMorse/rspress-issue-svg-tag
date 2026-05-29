@@ -12,22 +12,22 @@ export default defineConfig({
   themeConfig: {
     nav: [
       {
-        text: "SVG Element: Comma",
+        text: "SVG Element - With Comma",
         link: "/",
         tag: '<svg xmlns="http://www.w3.org/2000/svg" width="30" height="20" transform="translate(0, 0)" stroke="white" ><text x="0" y="15">test</text></svg>',
       },
       {
-        text: "SVG Element: NO Comma",
+        text: "SVG Element - Without Comma",
         link: "/",
         tag: '<svg xmlns="http://www.w3.org/2000/svg" width="30" height="20" stroke="white" ><text x="0" y="15">test</text></svg>',
       },
       {
-        text: "SVG URL: Relative",
+        text: "SVG URL - Relative",
         link: "/",
         tag: "/my.svg",
       },
       {
-        text: "SVG URL: Full",
+        text: "SVG URL - Full",
         link: "/",
         tag: "http://localhost:3000/my.svg",
       },
